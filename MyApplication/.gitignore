@@ -1,0 +1,43 @@
+# ===== 通用 =====
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# ===== Android / Gradle =====
+.gradle/
+.kotlin/
+build/
+local.properties
+*.iml
+.idea/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+out/
+release/
+
+# ===== Java / Maven =====
+target/
+!.mvn/wrapper/maven-wrapper.jar
+*.jar
+!**/gradle/wrapper/gradle-wrapper.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+logs/
+*.log.gz
+
+# ===== 其他 =====
+.env
+.env.local
+*.keystore
+*.jks
